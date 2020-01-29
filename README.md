@@ -1,6 +1,5 @@
 ## R-LESSON
 //Author: kgmoo//
-//Init: 1/29/2020//
 //Dependencies: dplyr, ggplot2//
 
 // sessionInfo()
