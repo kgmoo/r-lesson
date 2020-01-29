@@ -32,6 +32,7 @@ pillar_1.4.3     scales_1.1.0     pkgconfig_2.0.3
 
 This is a test repository built for a BRI training on R, Git, and bash shell operations.
 
+Emacs is okay I guess
 
-
-vim 4 lyfe 
+vim 4 lyfe
+ 
