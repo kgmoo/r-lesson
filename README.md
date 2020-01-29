@@ -1,5 +1,5 @@
 ## R-LESSON
-//Author: kgmoo//
+//Author: kgmoo, Estelle Bettelli//
 //Dependencies: dplyr, ggplot2//
 
 // sessionInfo()
