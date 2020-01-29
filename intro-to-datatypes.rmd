@@ -1,0 +1,81 @@
+---
+title: "Analysis Of Experiment"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+experiment <- read.csv(file = "data/experiment.csv)
+```
+
+```{r}
+experiment$protein_names
+experiment$intensity +1.
+paste("Protein name:", experiment$protein_names)
+```
+
+```{r}
+experiment2 <- experiment
+experiment2$protein_names <- paste( "Protein Name:", experiment2$protein_names)
+```
+
+```{r}
+experiment$protein_names + experiment$intensity
+```
+
+```{r}
+list(3.4, TRUE, "banana")
+list_example <- list(title = "Numbers", numbers=c(1, 2, 3), data_exists=TRUE)
+```
+
+```{r}
+fruits <- c("apple", "apple", "bannan", "grape", "grape")
+fruits <- factor(fruits)
+```
+
+```{r}
+mydata <- c("case", "case", "control", "control")
+mydata <- factor(mydata)
+```
+```{r}
+replicate <- c(1,2,1)
+experiment <- cbind(experiment, replicate)
+
+```
+
+```{r}
+levels(experiment$protein_names) <- c(levels(experiment$protein_names), "FOXO3")
+new_protein <- list(protein_names="FOXO3",
+                    intensity=1.5,
+                    in_membrane=0,
+                    replicate=2
+                    )
+rbind(experiment, new_protein)
+```
+}}
+```{r}
+experiment
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}}

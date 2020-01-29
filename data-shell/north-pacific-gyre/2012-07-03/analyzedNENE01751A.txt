@@ -1,0 +1,2 @@
+goostats file1 file2
+call goostats with two arguments
